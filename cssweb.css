@@ -1,0 +1,94 @@
+/*External style sheet Assignment 1*/
+/*Sara Ahmed Alghamdi*/
+/*2007804*/
+
+
+body                       {background-color: #173740;
+                                 background-image: url("web.jpg");
+                                 background-position: center;
+                                 background-repeat: no-repeat;
+                                 background-size: cover;
+                                 color:#070f10;
+                                 font-weight: bold;
+                                 text-shadow: -4px 4px 6px #a9a5a6;}
+
+header                    {font-size:25px;
+                                font-family: Georgia,Arial,Helvetica;
+                                text-align: center;
+                                border-radius: 20px;
+                                color: #03034b;
+                                text-shadow: -4px 4px 6px #dad4d6;}
+
+div                        {background-color:   rgba(199, 184, 189, 0.5);
+                               -webkit-border-radius: 20px;
+                               border-radius: 20px;
+                               background-position: center;
+                               margin: 15%;
+                               padding:10px;}
+
+nav div                 {font-family: times new roman, helvetica, sans-serif;
+                              font-weight: bold;
+                              color:#211e54;
+                              background-color: rgba(243, 240, 245, 0.7);
+                              -webkit-border-radius: 10px;
+                              border-radius: 10px;
+                              text-align: center;
+                              width:15%;
+                              margin: 10px -10px 10px 42%;
+                              padding: 5px;}
+
+nav div:hover           {background-color: #d0c6c9;}
+
+h3                        {font-size: 23px;
+                              color:#f4f0f0;
+                              text-shadow: -4px 4px 6px rgb(10, 10, 10);}                            
+
+a                          {text-decoration: none;
+                              color:#f5f0f0;}
+
+ol a ,p a                {color:#f0f4f7;}
+
+ol a:hover,p a:hover  {text-decoration: underline;}
+
+div.progress         {background:none ;
+                              width:50%;
+                              margin: 0px;
+                              position: relative;
+                              left:0px;}
+
+div.progress-bar   {background-color: #dcdada;
+                              position: relative;
+                              left:0px;
+                              margin: 5px;
+                              border-width: medium;
+                              border-color:#100d0d;
+                              border-style: inset;}
+
+@media screen and (max-width: 576px){
+        div.progress      {background:none ;
+                                   width:80%;}
+
+        nav div             {width:30%;
+                                   margin-left:35%;}
+
+        body                {background-repeat: repeat-y;}
+}
+
+@media only screen and (max-width: 768px),
+    (min-width: 768px){
+        body               {background-repeat: repeat-y;}
+}
+
+@media only screen and (max-width: 992px),
+    (min-width:992px){
+        body               {background-repeat: repeat-x;}
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
